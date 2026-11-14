@@ -1,0 +1,61 @@
+Assignment 3 Answers
+
+FAQ Test:
+
+I used the Tab key to move to the second question in the FAQ section.
+When I pressed Enter, the answer opened.
+When I pressed Enter again, the answer closed.
+
+Result:
+The FAQ section works correctly with the keyboard and does not require a mouse.
+
+-----------------------------------
+
+Video Fix:
+
+Corrected code:
+
+<video src="../media/intro.mp4" controls preload="metadata"></video>
+
+Question 1:
+The relative path starts from the location of courses.html, which is inside the pages folder.
+Therefore, the browser must go up one folder using ../ and then enter the media folder.
+
+Question 2:
+The muted attribute mutes the audio whenever it is present.
+Using muted="false" still keeps the video muted.
+I removed the muted attribute so the sound can be heard when the user presses Play.
+
+Question 3:
+The best preload value is "metadata".
+It loads only file information before playback and does not download the entire video.
+
+-----------------------------------
+
+Final Website Test:
+
+Step 1:
+I clicked "View Course Requirements" from the home page.
+The browser opened courses.html and jumped directly to the requirements section.
+The URL ended with #course-requirements.
+
+Step 2:
+I opened the Courses Guide page.
+Both courses displayed their level and duration.
+The course cover image and its caption appeared correctly.
+
+Step 3:
+I navigated to the Contact page.
+I returned to the Home page using the navigation menu successfully.
+
+Step 4:
+I opened the FAQ section.
+Using the keyboard, I selected the second question with Tab and opened and closed it using Enter.
+
+Fixes Made:
+1. Corrected the video path to ../media/intro.mp4.
+2. Removed the muted attribute.
+3. Added preload="metadata".
+
+Result:
+All pages, links, images, navigation menus, FAQ items, and the video worked correctly after testing.
