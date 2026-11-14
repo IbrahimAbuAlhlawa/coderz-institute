@@ -1,0 +1,14 @@
+
+Question 2 - Table Answers
+
+The cell containing the number 3 belongs to the HTML Content
+course on Tuesday.
+
+The number 3 represents the duration of the Tuesday meeting
+in hours.
+
+Total hours:
+HTML Content: 2 + 3 = 5 hours
+HTML Forms: 4 hours
+
+Total: 5 + 4 = 9 hours.
