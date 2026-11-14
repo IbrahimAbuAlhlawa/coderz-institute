@@ -1,0 +1,14 @@
+
+Assignment 3 Answers
+
+1. Link used to return from schedule.html to the homepage:
+
+href="../index.html"
+
+2. Explanation:
+
+The schedule.html file is located inside the pages folder.
+The ../ path moves one directory level up from pages
+to the main assignment-2 folder.
+
+Then index.html is accessed from the main folder.
